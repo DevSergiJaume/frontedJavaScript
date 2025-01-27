@@ -1,0 +1,45 @@
+
+
+body{
+    background-color: rgb(255, 255, 0);
+}
+
+
+/*Maquetando Header*/
+
+header {
+    background-color: rgb(255, 255, 0);
+}
+
+
+
+/*Maquetando Main*/
+
+main{
+    background-color: rgb(191, 191, 4);
+}
+
+section.temas {
+    display: grid;
+    grid-template-columns: auto auto;
+    background-color: rgb(206, 255, 30);
+    padding: 10px;
+}
+
+section.temas > article{
+    background-color: #f1f1f1;
+    border: 5px solid rgb(255, 0, 0);
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+
+
+/*Maquetando Footer*/
+
+
+footer{
+    background-color: rgb(255, 255, 0);
+}
