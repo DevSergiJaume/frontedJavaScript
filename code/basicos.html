@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tema 1 - Conceptos básicos en Javascript</title>
+
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -28,6 +30,53 @@
     <main>
         <h2>Tema 1 - Conceptos básicos en Javascript</h2>
 
+        <section>
+          <h3>¿Que es Javascript?</h3>
+          <p>Javascript es el responsable de controlar toda la interactividad del usuario en la web.</p>
+          <p>Para ver si esta funcionando o no lo podemos ver a traves de la consola. Esta la encontraremos haciendo clic derecho en la web y vamos a la pestañita "consola".</p>
+          <h4>El Javascript se puede introducir de tres formas distintas:</h4>
+          <ul>
+            <li>Escribiriendolo directamente dentro del body del HTML con una etiqueta "script"</li>
+            <li>Escribiendolo en el head del HTML</li>
+            <li>Enlaçando un archivo .js</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Tipos de datos básicos:</h3>
+          <ul>
+            <li>string</li>
+            <li>number</li>
+            <li>boolean</li>
+            <li>undefined</li>
+            <li>null</li>
+            <li>bigit</li>
+            <li>symbol</li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Declaración y inicialicación</h3>
+          <p>
+            <ul>
+              <li><strong>var =></strong> se usa cada vez menos en el desarrollo moderno de Javascript debido a sus peculiaridades y potenciales problemas con el alcance de función y hoisting.</li>
+              <li><strong>let =></strong> es preferible cuando se necesita una variable cuyo valor va a cambiar, como contadores en bucles, o valores que se reasignan en un bloque de código.</li>
+              <li><strong>const =></strong> es la mejor opción para declarar variables que no deben cambiar después de su asignación inicial. Esto mejora la legibilidad del código y reduce la posibilidad de errorres inesperados.</li>
+            </ul>
+          </p>
+        </section>
+        
+        <section>
+          <h3>Conceptos utilizados...</h3>
+          
+          <ul>
+            <li>alert() => Para hacer que salte un popup con un mensaje de alerta</li>
+            <li>El console.log() => Para imprimir mensajes por consola</li>
+            <li>El console.warn() => Para imprimir mensajes de "warning" por consola</li>
+            <li>El console.info() => Para imprimir mensajes de información por consola</li>
+            <li>El console.error() => Para imprimir mensajes de error por consola</li>            
+          </ul>
+        </section>
 
         <a href="index.html">Volver al Inicio</a>
     </main>
@@ -35,6 +84,15 @@
     <footer>
         <h6>By Sergi Jaume Lopez</h6>
     </footer>
+
+    <script>
+      alert("Esto es una alerta hecha desde el script de HTML")
+      console.log("Esto es un console log()")
+      console.warn("Esto es un console.warn()")
+      console.info("Esto es un console.info()")
+      console.error("Esto es un console.error()")
+      let a = "Hola soy 'a' y soy un string"
+    </script>
 </body>
 
 </html>
